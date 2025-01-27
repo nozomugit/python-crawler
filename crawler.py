@@ -92,5 +92,5 @@ def crawl_domain(start_url, output_dir="downloaded_pages"):
 
 if __name__ == "__main__":
     # 例: "https://example.com" を起点に同じドメインのHTMLを全取得する
-    start_url = "https://www.preferred.jp/ja/"
+    start_url = "https://example.com"
     crawl_domain(start_url)
